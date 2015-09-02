@@ -1,6 +1,10 @@
-# peg-thing
+# Peg Thing®
 
-A [re-frame](https://github.com/Day8/re-frame) application designed to ... well, that part is up to you.
+> based on the secret mind sharpening tool passed down from Ye Olden Days and now distributed by Cracker Barrel, Inc.
+
+This is a re-frame/Reagent implementation of Peg Thing®. I took the game logic from [this chapter](http://www.braveclojure.com/functional-programming/) Daniel Higginbotham's book, [Clojure for the Brave and True](http://www.braveclojure.com/).
+
+Try it [here](https://prbroadfoot.github.io/examples/peg-thing/index.html).
 
 ## Development Mode
 
@@ -14,13 +18,6 @@ lein figwheel dev
 Figwheel will automatically push cljs changes to the browser.
 
 Wait a bit, then browse to [http://localhost:3449](http://localhost:3449).
-
-### Run tests:
-
-```
-lein clean
-lein cljsbuild auto test
-```
 
 ## Production Build
 
